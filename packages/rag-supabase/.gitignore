@@ -1,0 +1,12 @@
+.env
+
+
+#gitignore for Terraform
+.terraform
+terraform.tfstate
+terraform.tfstate.backup
+*.tfvars
+*.tfplan
+*.tfout
+*.tflock
+
