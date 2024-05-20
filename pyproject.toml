@@ -9,7 +9,7 @@ packages = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.11"
+python = ">=3.11,<=3.13"
 uvicorn = "^0.23.2"
 langserve = {extras = ["server"], version = ">=0.0.30"}
 python-dotenv = "^1.0.1"
@@ -17,6 +17,11 @@ gemini-functions-agent = {path = "packages/gemini-functions-agent", develop = tr
 pydantic = "1.10.13"
 rag-supabase = {path = "packages/rag-supabase", develop = true}
 google-cloud-secret-manager = "^2.19.0"
+langgraph = "^0.0.48"
+langchain-openai = "^0.0.5"
+alembic = "^1.13.1"
+sqlalchemy = "^2.0.30"
+psycopg2-binary = "^2.9.9"
 
 
 [tool.poetry.group.dev.dependencies]
